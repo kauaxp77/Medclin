@@ -76,4 +76,4 @@ Mova a pasta do projeto para o diretório htdocs do XAMPP.
 
 Importe o banco de dados via PHPMyAdmin.
 
-Acesse no navegador: http://localhost/pcc_medclin_2024
+Acesse no navegador: http://localhost/pcc_medclin
