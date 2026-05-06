@@ -1,5 +1,4 @@
 
-Aqui está o arquivo limpo:
 
 ---
 
