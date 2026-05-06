@@ -1,22 +1,18 @@
-
-
----
-
 # 🏥 MedClin - Sistema de Gestão Clínica
 
 > **PCC (Projeto Complementar de Curso)** desenvolvido para as disciplinas de Linguagem de Programação II e Design Web.
 
-O **MedClin** é uma solução para a organização de fluxos de trabalho em clínicas e consultórios. O foco central é a otimização do agendamento de consultas e o gerenciamento centralizado de dados de pacientes e profissionais de saúde.
+O **MedClin** é uma solução completa para a organização de fluxos de trabalho em clínicas e consultórios. O foco central é a otimização do agendamento de consultas e o gerenciamento centralizado de dados de pacientes e profissionais de saúde.
 
 ---
 
 ## 📌 Índice
 * [Sobre o Projeto](#-sobre-o-projeto)
 * [Funcionalidades](#-funcionalidades)
+* [Destaques Técnicos](#-destaques-técnicos)
 * [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 * [Ferramentas de Desenvolvimento](#-ferramentas-de-desenvolvimento)
 * [Como Executar](#-como-executar)
-* [Equipe Responsável](#-equipe-responsável)
 
 ---
 
@@ -32,10 +28,20 @@ O sistema foi projetado para atender três perfis distintos de usuários:
 ## ⚙️ Funcionalidades
 O MedClin implementa operações completas de **CRUD** (Create, Read, Update, Delete) para os seguintes módulos:
 
-* 👤 **Perfis:** Gestão de níveis de acesso.
-* 👥 **Usuários:** Cadastro de pacientes, médicos e recepcionistas.
+* 👤 **Perfis:** Gestão de níveis de acesso e permissões.
+* 👥 **Usuários:** Cadastro centralizado de pacientes, médicos e recepcionistas.
 * 📂 **Categorias:** Organização de especialidades e áreas médicas.
-* 📝 **Artigos & Avaliações:** Sistema integrado para compartilhamento de conhecimento e feedback.
+* 📝 **Artigos & Avaliações:** Sistema integrado para compartilhamento de conhecimento e feedback dos serviços.
+
+---
+
+## ⭐ Destaques Técnicos
+A arquitetura do projeto vai além de um CRUD básico, incorporando ferramentas profissionais para um ambiente clínico real:
+
+* **📄 Geração de Relatórios em PDF:** Utilização da biblioteca **FPDF** com módulos de relatório para emissão de documentos formatados diretamente pelo sistema.
+* **📊 Dashboard e Gráficos:** Integração com as bibliotecas **Chart.js** e **chart-circle**, provendo o sistema com métricas visuais e painéis interativos.
+* **🖥️ Interface Avançada:** Utilização do template administrativo **Atlantis**, além de **Bootstrap**, **DataTables** (para listagem avançada, buscas e paginação) e ícones profissionais (**FontAwesome** e **Flaticon**).
+* **⚙️ Arquitetura por Domínio:** Estrutura organizada com operações específicas e divisões claras por domínio de negócio, facilitando a manutenção.
 
 ---
 
@@ -50,7 +56,7 @@ O MedClin implementa operações completas de **CRUD** (Create, Read, Update, De
 * **Front-end:** HTML5, CSS3, JavaScript.
 * **Back-end:** PHP 7.4+.
 * **Banco de Dados:** MySQL 5.6+.
-* **Bibliotecas:** jQuery e SweetAlert2.
+* **Bibliotecas:** jQuery, SweetAlert2, FPDF e Chart.js.
 * **Tipografia:** Google Fonts (Ubuntu).
 
 ---
@@ -65,15 +71,10 @@ O MedClin implementa operações completas de **CRUD** (Create, Read, Update, De
 
 ---
 
-💻 Como Executar o Projeto
-Clone este repositório:
+## 💻 Como Executar o Projeto
 
-Bash
-git clone [https://github.com/seu-usuario/medclina_final.rar.git](https://github.com/seu-usuario/medclina_final.rar.git)
-Certifique-se de que o XAMPP esteja instalado e os módulos Apache e MySQL estejam ativos.
+Siga os passos abaixo para configurar o ambiente local:
 
-Mova a pasta do projeto para o diretório htdocs do XAMPP.
-
-Importe o banco de dados via PHPMyAdmin.
-
-Acesse no navegador: http://localhost/medclina_final.rar
+1. **Clonar o Repositório**
+   ```bash
+   git clone [https://github.com/seu-usuario/medclina_final.git](https://github.com/seu-usuario/medclina_final.git)
