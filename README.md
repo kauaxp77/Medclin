@@ -77,7 +77,7 @@ Siga os passos abaixo para configurar o ambiente local:
 
 1. **Clonar o Repositório**
    ```bash
-   git clone [https://github.com/seu-usuario/medclina_final.git](https://github.com/seu-usuario/medclina_final.git)
+   git clone [https://github.com/kauaxp77/Medclin.git](https://github.com/kauaxp77/Medclin.git)
 
  2. **Configurar o Servidor Local**
 Certifique-se de que o XAMPP esteja instalado.
