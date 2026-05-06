@@ -69,11 +69,11 @@ O MedClin implementa operações completas de **CRUD** (Create, Read, Update, De
 Clone este repositório:
 
 Bash
-git clone [https://github.com/seu-usuario/pcc_medclin_2024.git](https://github.com/seu-usuario/pcc_medclin_2024.git)
+git clone [https://github.com/seu-usuario/medclina_final.rar.git](https://github.com/seu-usuario/medclina_final.rar.git)
 Certifique-se de que o XAMPP esteja instalado e os módulos Apache e MySQL estejam ativos.
 
 Mova a pasta do projeto para o diretório htdocs do XAMPP.
 
 Importe o banco de dados via PHPMyAdmin.
 
-Acesse no navegador: http://localhost/pcc_medclin
+Acesse no navegador: http://localhost/medclina_final.rar
