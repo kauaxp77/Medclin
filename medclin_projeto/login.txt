@@ -1,0 +1,21 @@
+					*SENHAS E LOGINS DO SISTEMA*
+
+
+	*ADMINISTRADORES*
+	USER:  admin01
+	SENHA:  123
+	
+	*recepcionistas*
+
+	USER:  manu
+	SENHA:123
+
+	
+
+	*PACIENTES*
+
+	USER: leo
+	SENHA: 123
+
+	USER:  joao
+	SENHA: 123
