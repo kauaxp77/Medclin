@@ -78,3 +78,24 @@ Siga os passos abaixo para configurar o ambiente local:
 1. **Clonar o Repositório**
    ```bash
    git clone [https://github.com/seu-usuario/medclina_final.git](https://github.com/seu-usuario/medclina_final.git)
+
+ 2. **Configurar o Servidor Local**
+Certifique-se de que o XAMPP esteja instalado.
+
+Inicie os módulos Apache e MySQL no painel de controle do XAMPP.
+
+3. **Mover os Arquivos**
+
+Mova a pasta do projeto para o diretório htdocs do XAMPP (geralmente localizado em C:\xampp\htdocs).
+
+4. **Configurar o Banco de Dados**
+
+Acesse o PHPMyAdmin: http://localhost/phpmyadmin.
+
+5. **Crie um novo banco de dados vazio.**
+
+Importe o arquivo SQL fornecido na raiz do projeto (ex: medclin.sql).
+
+6. **Acessar o Sistema**
+
+Abra o navegador e acesse: http://localhost/medclina_final
