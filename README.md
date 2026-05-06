@@ -45,7 +45,16 @@ A arquitetura do projeto vai além de um CRUD básico, incorporando ferramentas 
 
 ---
 
+📂 Estrutura de Camadas (Tiered Architecture)
+Embora o projeto esteja em um único repositório (monolito), ele segue uma divisão clara entre as responsabilidades do sistema:
+
+Front-end (Client-side): Camada de apresentação organizada de forma Modular por Domínio. Note que dentro de frontend, você separou as pastas por funcionalidades específicas do negócio, como citas, medicos, pacientes e horarios. Isso é excelente para a escalabilidade e manutenção.
+
+Back-end (Server-side): Camada de lógica e persistência onde residem os scripts PHP, as configurações de banco de dados (db) e os modelos de dados (modal).
+
+Camada de Recursos (Assets): Centralização de dependências como bibliotecas de terceiros (fpdf), estilos (css), scripts globais (js), imagens e fontes.
 ## 🚀 Tecnologias Utilizadas
+---
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
