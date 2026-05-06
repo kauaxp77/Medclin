@@ -65,8 +65,15 @@ O MedClin implementa operações completas de **CRUD** (Create, Read, Update, De
 
 ---
 
-## 💻 Como Executar o Projeto
+💻 Como Executar o Projeto
+Clone este repositório:
 
-1. Clone este repositório:
-   ```bash
-   git clone [https://github.com/seu-usuario/pcc_medclin_2024.git](https://github.com/seu-usuario/pcc_medclin_2024.git)
+Bash
+git clone [https://github.com/seu-usuario/pcc_medclin_2024.git](https://github.com/seu-usuario/pcc_medclin_2024.git)
+Certifique-se de que o XAMPP esteja instalado e os módulos Apache e MySQL estejam ativos.
+
+Mova a pasta do projeto para o diretório htdocs do XAMPP.
+
+Importe o banco de dados via PHPMyAdmin.
+
+Acesse no navegador: http://localhost/pcc_medclin_2024
