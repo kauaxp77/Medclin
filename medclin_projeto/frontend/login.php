@@ -30,7 +30,7 @@ include_once '../backend/php/login.php'
 
     <form autocomplete="off" method="POST"  role="form">
 
-    <img src="../backend/img/logo_med.png" alt="">
+    <img src="../backend/img/logo_Med.png" alt="">
     <h2>Login</h2>
     <?php
     if(isset($errMsg)){
